@@ -1,0 +1,71 @@
+.testimonials{
+    margin: 80px auto;
+    position: relative;
+
+}
+.next-icon, .back-icon{
+    background-color: rgb(21, 21, 24);
+    border-radius: 50px;
+    position: absolute;
+    /* top: 50%; */
+    /* right: 0%; */
+    width: 35px;
+    padding: 8px;
+    color: antiquewhite;
+    cursor: pointer;
+
+
+}
+.back-icon{
+    left: 0%;
+    top: 50%;
+}
+.next-icon{
+    right: 0%;
+    top: 50%;
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}
+.slider ul li{
+    list-style: none;
+    padding: 10px;
+    width: 40%;
+}
+.slide{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.05);
+  
+    padding: 40px;
+    border-radius: 20px;
+    line-height: 1.4;
+ 
+}
+.slide img{
+    border-radius: 100px;
+    border: 3px solid black;
+  width: 70px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+
+
+}
+.info{
+    display: flex;
+  
+}
+.info h3{
+    color: rgb(64, 35, 141);
+    font-weight: 600;
+    font-size: 20px;
+}
+.info p{
+    font-weight: 600;
+    font-size: 16px;
+}

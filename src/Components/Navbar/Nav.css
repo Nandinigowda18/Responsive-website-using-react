@@ -1,0 +1,43 @@
+
+nav{
+    /* background-color: black; */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+  height: 70px;
+}
+nav ul{
+    align-items: center;
+    justify-content: space-between;
+  
+    display:flex;
+    list-style: none;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-right: 0%;
+}
+nav ul li{
+    margin: 20px 20px;
+   
+    cursor: pointer;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.dark-nav{
+    background-color: rgb(4, 4, 5);
+    transition: 0.5s;
+}
+.container{
+    width: 100%;
+
+}
+.nav-btn{
+    padding: 0 auto;
+    font-size: 14px;
+}
